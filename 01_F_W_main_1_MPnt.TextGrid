@@ -1,0 +1,151 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.695521088258389 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Word" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.69 
+            text = "ballash" 
+        intervals [3]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "CVPhonemes" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.06764222772338849 
+            text = "C1" 
+        intervals [3]:
+            xmin = 0.06764222772338849 
+            xmax = 0.15582553146187086 
+            text = "V1" 
+        intervals [4]:
+            xmin = 0.15582553146187086 
+            xmax = 0.2783743873925558 
+            text = "CC2" 
+        intervals [5]:
+            xmin = 0.2783743873925558 
+            xmax = 0.4216722559675896 
+            text = "V2" 
+        intervals [6]:
+            xmin = 0.4216722559675896 
+            xmax = 0.69 
+            text = "C3" 
+        intervals [7]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phoneme" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005 
+            xmax = 0.06764222772338849 
+            text = "b" 
+        intervals [3]:
+            xmin = 0.06764222772338849 
+            xmax = 0.15582553146187086 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.15582553146187086 
+            xmax = 0.2783743873925558 
+            text = "ll" 
+        intervals [5]:
+            xmin = 0.2783743873925558 
+            xmax = 0.4216722559675896 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.4216722559675896 
+            xmax = 0.69 
+            text = "sh" 
+        intervals [7]:
+            xmin = 0.69 
+            xmax = 0.695521088258389 
+            text = "" 
+    item [4]:
+        class = "TextTier" 
+        name = "Pntl1" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        points: size = 6 
+        points [1]:
+            number = 0.06923387959262972 
+            mark = "Ons" 
+        points [2]:
+            number = 0.1142338795926297 
+            mark = "Mid" 
+        points [3]:
+            number = 0.15423387959262974 
+            mark = "Off" 
+        points [4]:
+            number = 0.2800233216800727 
+            mark = "Ons" 
+        points [5]:
+            number = 0.3500233216800727 
+            mark = "Mid" 
+        points [6]:
+            number = 0.42002332168007267 
+            mark = "Off" 
+    item [5]:
+        class = "TextTier" 
+        name = "Pntl1+" 
+        xmin = 0 
+        xmax = 0.695521088258389 
+        points: size = 9 
+        points [1]:
+            number = 0.006321113861694261 
+            mark = "Ons" 
+        points [2]:
+            number = 0.03632111386169423 
+            mark = "Mid" 
+        points [3]:
+            number = 0.06632111386169426 
+            mark = "Off" 
+        points [4]:
+            number = 0.15709995942721333 
+            mark = "Ons" 
+        points [5]:
+            number = 0.21709995942721333 
+            mark = "Mid" 
+        points [6]:
+            number = 0.27709995942721327 
+            mark = "Off" 
+        points [7]:
+            number = 0.4233361279837948 
+            mark = "Ons" 
+        points [8]:
+            number = 0.5533361279837947 
+            mark = "Mid" 
+        points [9]:
+            number = 0.6883361279837947 
+            mark = "Off" 
