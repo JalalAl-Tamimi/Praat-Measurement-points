@@ -1,4 +1,4 @@
-# Praat-Measurement-pointsThe script "measurement_points_estimation_v4.praat" provides an automated method to estimate the accurate positions of of frames to 
+The script "measurement_points_estimation_v4.praat" provides an automated method to estimate the accurate positions of of frames to 
 obtain reliable results for formant, pitch and intensity results. Starting from a current TextGrid, the script uses a combination
 of pitch detection, point process estimation, intensity and formant estimations to obtain accurate positions of frames.
 The results are saved on two additional tiers, whereby even number are on the first point tier and odd numbers on another one.
