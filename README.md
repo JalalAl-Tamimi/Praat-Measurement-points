@@ -1,4 +1,4 @@
-To access scripts and supporting documents, download the whole repository. You can access it by clicking on "View on GitHub" on top.
+To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-Measurement-points). You can access it by clicking on "View on GitHub" on top.
 
 The script "measurement_points_estimation_v4.praat" provides an automated method to estimate the accurate positions of of frames to 
 obtain reliable results for formant, pitch and intensity results. Starting from a current TextGrid, the script uses a combination
