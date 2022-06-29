@@ -3,7 +3,8 @@
 ## 06 April 2009: version 2. Using normal pitch tracking, Point Process to estimate mean period duration. 
 ## 01 April 2011: version 3. A few updates and using To Pitch (ac) (for details, see Al-Tamimi and Khattab, 2015, JASA, 138(1): 344–360).  
 ## 25 May 2017: version 4. Using cross-correlation pitch estimate rather than autocorrelation (see Al-Tamimi and Khattab, under review, Journal of Phonetics, Special Issue on VOT) 
-##
+## 29 June 2022: Minor updates
+
 ## The method starts by estimating the mean duration of a complete glottal cycle adapted to each speaker (the two-pass method).
 ## Then estimation of Intensity is based on Pitch minimum value estimated from the two pass method. The maximum intensity is obtained
 ## in a window with a length equal to the mean duration fo a glottal cycle. 
