@@ -1,3 +1,5 @@
+To cite, use: [![DOI](https://zenodo.org/badge/122322703.svg)](https://zenodo.org/badge/latestdoi/122322703)
+
 To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-Measurement-points). You can access it by clicking on "View on GitHub" on top.
 
 The script "measurement_points_estimation_v4.praat" provides an automated method to estimate the accurate positions of of frames to 
