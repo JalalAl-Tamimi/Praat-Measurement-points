@@ -24,7 +24,7 @@ if directory1$ = ""
 	directory1$ = chooseDirectory$("Select your directory of sound files and TextGrids")
 endif
 
-Create Strings as file list: "list", "'directory1$'\*.wav"
+Create Strings as file list: "list", "'directory1$'/*.wav"
 
 numberOfFiles = Get number of strings
 
@@ -32,9 +32,9 @@ for i from 1 to numberOfFiles
 	select Strings list
    	fileName$ = Get string: i
 
-	Read from file: "'directory1$'\'fileName$'"
+	Read from file: "'directory1$'/'fileName$'"
 	name$ = selected$ ("Sound")
-	Read from file: "'directory1$'\'name$'.TextGrid"
+	Read from file: "'directory1$'/'name$'.TextGrid"
 	select Sound 'name$'
 	
 	noprogress To Pitch (cc): 0.005, 50, 15, "yes", 0.03, 0.45, 0.01, 0.35, 0.14, 600
@@ -112,10 +112,11 @@ for i from 1 to numberOfFiles
 
 		endif
 	endfor
-	Write to text file: "'directory1$'\'name$'_MPnt.TextGrid"
+	Write to text file: "'directory1$'/'name$'_MPnt.TextGrid"
 	select all
 	minus Strings list
 	Remove
 endfor
 echo Finished! Check your new TextGrids located in 'directory1$'
+
 
